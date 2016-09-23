@@ -7,7 +7,7 @@ Package for easily serealizing Eigen matrices and other data types using the C++
 
 ## ros_cereal
 
-Package for easily ROS message types using the C++ Cereal library.
+Package for easily serializing ROS message types using the C++ Cereal library.
 
 ## simple_graph
 
