@@ -4,10 +4,10 @@ project(eigen_cereal)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED)
+find_package(catkin REQUIRED COMPONENTS cereal)
 
 ## System dependencies are found with CMake's conventions
-# find_package(Boost REQUIRED COMPONENTS system)
+#find_package(Boost REQUIRED COMPONENTS cereal)
 
 
 ## Uncomment this if the package has a setup.py. This macro ensures
@@ -96,9 +96,9 @@ find_package(catkin REQUIRED)
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
+  INCLUDE_DIRS include
 #  LIBRARIES eigen_cereal
-#  CATKIN_DEPENDS other_catkin_pkg
+  CATKIN_DEPENDS cereal
 #  DEPENDS system_lib
 )
 

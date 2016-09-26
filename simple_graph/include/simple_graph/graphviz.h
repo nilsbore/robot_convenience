@@ -4,6 +4,7 @@
 #include <simple_graph/simple_graph.h>
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
+#include <fstream>
 #include <cstdlib>
 
 namespace simple_graph {
